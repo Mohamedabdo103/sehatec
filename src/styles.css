@@ -1,0 +1,68 @@
+body {
+  background: #F5F7FA;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+}
+
+button {
+  background: #1E88E5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+
+.roles button {
+  margin-right: 10px;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.card {
+  background: var(--card);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+input, select, textarea {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+input::placeholder {
+  color: var(--muted);
+}
+
+.tab {
+  background: #e5e7eb;
+}
+
+[data-theme="dark"] .tab {
+  background: #334155;
+}
+
+.tab.active {
+  background: var(--primary);
+  color: white;
+}
