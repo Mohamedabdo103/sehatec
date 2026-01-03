@@ -66,3 +66,36 @@ input::placeholder {
   background: var(--primary);
   color: white;
 }
+
+.chatbot {
+  max-width: 600px;
+  margin: auto;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+  background: var(--bg-light);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.chat-msg {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  white-space: pre-line;
+}
+
+.chat-msg.bot {
+  background: #e3f2fd;
+  align-self: flex-start;
+}
+
+.chat-msg.user {
+  background: #4a90e2;
+  color: white;
+  align-self: flex-end;
+  text-align: right;
+}
